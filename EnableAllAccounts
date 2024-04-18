@@ -1,0 +1,1 @@
+ForEach ($user in get-localuser){ Enable-LocalUser -name $user.name}; get-localuser
